@@ -15,7 +15,7 @@ describe CheckinController do
     describe ": happy path: " do
       before do
         controller.session[:current_user_id] = @stu.id
-        post :create
+        post :create, params: {checkin: { reason: "Studying" }}
         @new_checkin = Checkin.order(id: :desc).first
       end
   
