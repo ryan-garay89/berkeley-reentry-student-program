@@ -10,7 +10,7 @@ gem 'activesupport', "= 6.1.4"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 6.1.4"
 
-# gem 'pg'
+gem 'pg'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
